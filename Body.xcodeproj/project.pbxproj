@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF6149F01E927B4B007E88BA /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6149EF1E927B4B007E88BA /* MyCollectionViewController.swift */; };
+		CF6149F21E927B65007E88BA /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6149F11E927B65007E88BA /* MyCollectionViewCell.swift */; };
+		CF6149F41E927D16007E88BA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6149F31E927D16007E88BA /* DetailViewController.swift */; };
 		FFA15FB11E924A73008921F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA15FB01E924A73008921F9 /* AppDelegate.swift */; };
 		FFA15FB31E924A73008921F9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA15FB21E924A73008921F9 /* art.scnassets */; };
 		FFA15FB51E924A73008921F9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA15FB41E924A73008921F9 /* GameViewController.swift */; };
 		FFA15FB81E924A73008921F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA15FB61E924A73008921F9 /* Main.storyboard */; };
 		FFA15FBA1E924A73008921F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA15FB91E924A73008921F9 /* Assets.xcassets */; };
 		FFA15FC21E9269C6008921F9 /* CollectionControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA15FC11E9269C6008921F9 /* CollectionControllerViewController.swift */; };
-		FFA15FC41E926CD0008921F9 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA15FC31E926CD0008921F9 /* BookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF6149EF1E927B4B007E88BA /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		CF6149F11E927B65007E88BA /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF6149F31E927D16007E88BA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FFA15FAD1E924A73008921F9 /* Body.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Body.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA15FB01E924A73008921F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFA15FB21E924A73008921F9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -25,7 +30,6 @@
 		FFA15FB91E924A73008921F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFA15FBB1E924A73008921F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFA15FC11E9269C6008921F9 /* CollectionControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionControllerViewController.swift; sourceTree = "<group>"; };
-		FFA15FC31E926CD0008921F9 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 				FFA15FB41E924A73008921F9 /* GameViewController.swift */,
 				FFA15FB61E924A73008921F9 /* Main.storyboard */,
 				FFA15FC11E9269C6008921F9 /* CollectionControllerViewController.swift */,
-				FFA15FC31E926CD0008921F9 /* BookViewController.swift */,
 				FFA15FB91E924A73008921F9 /* Assets.xcassets */,
 				FFA15FBB1E924A73008921F9 /* Info.plist */,
+				CF6149EF1E927B4B007E88BA /* MyCollectionViewController.swift */,
+				CF6149F11E927B65007E88BA /* MyCollectionViewCell.swift */,
+				CF6149F31E927D16007E88BA /* DetailViewController.swift */,
 			);
 			path = Body;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6149F01E927B4B007E88BA /* MyCollectionViewController.swift in Sources */,
+				CF6149F21E927B65007E88BA /* MyCollectionViewCell.swift in Sources */,
 				FFA15FB51E924A73008921F9 /* GameViewController.swift in Sources */,
-				FFA15FC41E926CD0008921F9 /* BookViewController.swift in Sources */,
+				CF6149F41E927D16007E88BA /* DetailViewController.swift in Sources */,
 				FFA15FB11E924A73008921F9 /* AppDelegate.swift in Sources */,
 				FFA15FC21E9269C6008921F9 /* CollectionControllerViewController.swift in Sources */,
 			);
